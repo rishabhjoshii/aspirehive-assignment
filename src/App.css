@@ -102,5 +102,61 @@ input{
   color: black;
 }
 
+/* add customer form */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+.modal-content {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  max-width: 90%;
+}
+
+.modal-content h2 {
+  margin-top: 0;
+}
+
+.modal-content form {
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-content form label {
+  margin: 10px 0 5px;
+}
+
+.modal-content form input,
+.modal-content form select {
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+.modal-content form button {
+  padding: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.modal-content form button[type="button"] {
+  background: #ccc;
+  border: none;
+}
+
+.modal-content form button[type="submit"] {
+  background: #007bff;
+  color: white;
+  border: none;
+}
 
