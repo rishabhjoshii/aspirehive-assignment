@@ -1,0 +1,106 @@
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.controls {
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pagination button {
+  padding: 10px 20px;
+}
+
+tr.selected {
+  background-color: aliceblue; 
+}
+tr.notSelected:hover {
+  background-color: aliceblue; 
+}
+
+.delBtn{
+  background-color: rgb(232, 38, 38);
+}
+.delBtn:hover{
+  background-color: rgb(193, 52, 52);
+}
+
+input{
+  height: 20px;
+}
+
+.searchInput{
+  height: 30px;
+  margin-left: 15px;
+  width: 200px;
+}
+
+.green-text {
+  color: green;
+}
+
+.gray-text {
+  color: gray;
+}
+
+.red-text {
+  color: red;
+}
+
+.purple-text {
+  color: purple;
+}
+
+.black-text {
+  color: black;
+}
+
+
+
