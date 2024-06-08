@@ -95,7 +95,7 @@ function App() {
       Deposit: deposit,
     };
     setCustomers([...customers, newCustomer]); 
-    toast.success("Customer added successfully", { duration: 5000 });
+    // toast.success("Customer added successfully");
     setShowModal(false);
     setName('');
     setDescription('');
